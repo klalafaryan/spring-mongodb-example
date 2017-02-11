@@ -23,7 +23,7 @@ public class Application {
         final User user = new User();
         final String uuid = UUID.randomUUID().toString();
         final String username = "testUsername" + uuid;
-        user.setUserName("");
+        user.setUserName(username);
         user.setEmailAddress(uuid + "test@test.com");
         user.setPassword("testEncryptedPassword");
 
